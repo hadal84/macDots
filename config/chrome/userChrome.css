@@ -1,0 +1,29 @@
+
+      @-moz-document url-prefix("chrome:") {
+        /* This is an auto generated color theme. */
+:root {
+    --zen-colors-primary: #000000 !important;
+    --zen-colors-secondary: #0b0b0b !important;
+    --zen-colors-tertiary: #000000 !important;
+    --zen-colors-border: ##bfbfbf !important;
+}
+
+      }
+
+
+
+
+/* This is an auto generated color theme. */
+:root {
+    --zen-colors-primary: color-mix(in srgb, var(--zen-primary-color) 0%, black 100%) !important;
+    --zen-colors-secondary: color-mix(in srgb, var(--zen-primary-color) 100%, black 0%) !important;
+    --zen-colors-tertiary: color-mix(in srgb, var(--zen-primary-color) 0%, black 100%) !important;
+    --zen-colors-border: color-mix(in srgb, var(--zen-colors-primary) 0%, white 80%) !important;
+    --zen-primary-color: #bfbfbf !important;
+}
+
+
+
+.tab-context-line{display: none !important;}
+#tabbrowser-tabs { & .tabbrowser-tab { &[selected] .tab-background { border: 2px solid var(--identity-icon-color) !important; opacity: 0 !important;}}}
+
